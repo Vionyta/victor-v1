@@ -2,6 +2,9 @@
 dist/
 # generated types
 .astro/
+.vscode/
+.gemini/
+.npmrc
 
 # dependencies
 node_modules/
