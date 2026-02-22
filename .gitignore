@@ -2,9 +2,10 @@
 dist/
 # generated types
 .astro/
-.vscode/
+.vscode/*
 .gemini/
 .npmrc
+gitig/
 
 # dependencies
 node_modules/
@@ -22,3 +23,6 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# Profile
+*.code-workspace

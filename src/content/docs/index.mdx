@@ -1,7 +1,7 @@
 ---
 title: Hello, I am Victor Ong
 description: An interactive, easy to navigate website to list Victor Ong's Experinces and Skillsets
-template: splash # Landing Page Only
+#template: splash # Landing Page Only
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -15,15 +15,22 @@ Click above nagivation bar to findout details of my experinces.
 46 years old Malaysian, **deployed Malaysia 1st 100Mbps Fiber to the Home/Office** in year 2013. After almost 10 years in telco core network, venture myself into CyberSecurity realm and obtain CISSP in 2022.
 
 #### Languages
+<CardGrid stagger>
+	<Card title="English" icon="pencil">
+		Since University days, have been using English as main communication language both written and spoken for work and social. Fluent in speaking, reading and writing.
+	</Card>
+	<Card title="Chinese" icon="document">
+		Native speaker, fluent in speaking, reading and writing.
+	</Card>
+	<Card title="Malay" icon="add-document">
+		Malaysian national language, fluent in speaking, reading and writing.
+	</Card>
+	<Card title="Khmer" icon="setting">
+		50% proficiency, can understand and speak basic Khmer, but still learning to write and read.
+	</Card>
+</CardGrid>
 
-- Chinese, 
-- English, 
-- Malay, 
-- Cantonese (Hong Kong), 
-- Hokkien (Taiwan) and 
-- learning Khmer (50%)
-
-## Skill Set
+#### Skill Set
 <CardGrid stagger>
 	<Card title="Technical Sales" icon="pencil">
 		Ability to write & present cybersecurity, networking technically.
